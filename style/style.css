@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: #056676;
+}
+
+.container .wrapper {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container .wrapper h3 {
+  color: #A4D3CA;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.container .wrapper .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: .5rem;
+}
+
+.container .wrapper .inputs label {
+  margin: 1.5rem 0;
+}
+
+.container .wrapper .inputs label input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  border: 2px solid #5EAAA7;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  color: #A4D3CA;
+}
+
+.container .wrapper .inputs label input::-webkit-input-placeholder {
+  color: #5EAAA7;
+}
+
+.container .wrapper .inputs label input:-ms-input-placeholder {
+  color: #5EAAA7;
+}
+
+.container .wrapper .inputs label input::-ms-input-placeholder {
+  color: #5EAAA7;
+}
+
+.container .wrapper .inputs label input::placeholder {
+  color: #5EAAA7;
+}
+
+.container .wrapper .btn-enviar {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  width: 18rem;
+  margin: 0 auto;
+  border: 2px solid #5EAAA7;
+  color: #5EAAA7;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.container .wrapper .btn-enviar:hover {
+  background: #5EAAA7;
+  color: white;
+}
+
+.container .wrapper .display {
+  text-align: center;
+  padding: .5rem;
+  margin: 1rem .5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.container .wrapper .display h1 {
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */
